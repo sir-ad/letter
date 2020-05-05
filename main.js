@@ -80,7 +80,7 @@ var sendEmail = function () {
     downloadImage();
     let emailAddress, reqUrl;
     emailAddress = document.getElementById('address').value;
-    reqUrl = 'https://thanksjhalwa.herokuapp.com/'
+    reqUrl = 'https://thankssgrl.herokuapp.com/'
     document.getElementById('sendbtn').style.display = 'none';
     document.getElementById('loader').style.display = 'inline-block';
     var headers = {
